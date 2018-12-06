@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'gflare'
+puts Gflare.bypass(ARGV[0])
