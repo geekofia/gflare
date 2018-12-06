@@ -10,7 +10,7 @@
 > 
 >
 >```
-## gflare
+## gflare [![Gem Version](https://badge.fury.io/rb/gflare.svg)](https://badge.fury.io/rb/gflare)
 
 Tool To Identify The Real IP Address Of A CloudFlare Protected Website ! The gem is available officially on rubygems.
 
