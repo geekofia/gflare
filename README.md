@@ -23,8 +23,41 @@ CloudFlare is services and distributed domain name server services, sitting betw
 
  
 ## Installation
+- Direct Download
+  -  Download from https://rubygems.org/gems/gflare
+- Gem Installation
+  -  Install directly from terminal by `gem install gflare`
 
-You can download from https://rubygems.org/gems/gflare or also can install directly from cli by `gem install gflare`
+Example:
+```
+ubuntu@ip-172-31-31-51:~$ sudo gem install gflare
+Fetching: gflare-0.0.2.gem (100%)
+Successfully installed gflare-0.0.2
+Parsing documentation for gflare-0.0.2
+Installing ri documentation for gflare-0.0.2
+Done installing documentation for gflare after 0 seconds
+1 gem installed
+ubuntu@ip-172-31-31-51:~$ gflare
+
+       ▄████  █████▒██▓    ▄▄▄       ██▀███  ▓█████
+      ██▒ ▀█▒▓██   ▒▓██▒   ▒████▄    ▓██ ▒ ██▒▓█   ▀
+     ▒██░▄▄▄░▒████ ░▒██░   ▒██  ▀█▄  ▓██ ░▄█ ▒▒███
+     ░▓█  ██▓░▓█▒  ░▒██░   ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄
+     ░▒▓███▀▒░▒█░   ░██████▒▓█   ▓██▒░██▓ ▒██▒░▒████▒
+      ░▒   ▒  ▒░   ░ ▒░▓  ░▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░
+       ░   ░  ░     ░ ░ ▒  ░ ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░
+     ░ ░   ░  ░ ░     ░ ░    ░   ▒     ░░   ░    ░
+           ░            ░  ░     ░  ░   ░        ░  ░
+
+Tool for identifying real IP of CloudFlare protected websites.
+
+--------------------- chankruze ---------------------
+
+
+Usage : gflare www.example.com
+
+ubuntu@ip-172-31-31-51:~$
+```
 
 ## Usage
 
