@@ -1,14 +1,3 @@
->```
->   ▄████   █████▒██▓    ▄▄▄       ██▀███  ▓█████ 
->  ██▒ ▀█▒▓██   ▒▓██▒   ▒████▄    ▓██ ▒ ██▒▓█   ▀ 
-> ▒██░▄▄▄░▒████ ░▒██░   ▒██  ▀█▄  ▓██ ░▄█ ▒▒███   
-> ░▓█  ██▓░▓█▒  ░▒██░   ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄ 
-> ░▒▓███▀▒░▒█░   ░██████▒▓█   ▓██▒░██▓ ▒██▒░▒████▒
->  ░▒   ▒  ▒ ░   ░ ▒░▓  ░▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░
->   ░   ░  ░     ░ ░ ▒  ░ ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░
-> ░ ░   ░  ░ ░     ░ ░    ░   ▒     ░░   ░    ░   
->```
-
 # gflare [![Gem Version](https://badge.fury.io/rb/gflare.svg)](https://badge.fury.io/rb/gflare)
 
 Tool To Identify The Real IP Address Of A CloudFlare Protected Website ! The gem is available officially on rubygems.
@@ -62,6 +51,39 @@ ubuntu@ip-172-31-31-51:~$
 ## Usage
 
 - `gflare www.example.com`
+
+Example:
+```
+
+       ▄████  █████▒██▓    ▄▄▄       ██▀███  ▓█████
+      ██▒ ▀█▒▓██   ▒▓██▒   ▒████▄    ▓██ ▒ ██▒▓█   ▀
+     ▒██░▄▄▄░▒████ ░▒██░   ▒██  ▀█▄  ▓██ ░▄█ ▒▒███
+     ░▓█  ██▓░▓█▒  ░▒██░   ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄
+     ░▒▓███▀▒░▒█░   ░██████▒▓█   ▓██▒░██▓ ▒██▒░▒████▒
+      ░▒   ▒  ▒░   ░ ▒░▓  ░▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░
+       ░   ░  ░     ░ ░ ▒  ░ ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░
+     ░ ░   ░  ░ ░     ░ ░    ░   ▒     ░░   ░    ░
+           ░            ░  ░     ░  ░   ░        ░  ░
+
+Tool for identifying real IP of CloudFlare protected websites.
+
+--------------------- chankruze ---------------------
+
+**CHECKING TARGET ADDRESS - STAND BY**
+
+[✔] Target : www.xda-developers.com
+[✔] CloudFlare IP : 104.16.135.15
+[✔] Real IP : 207.244.72.9
+[✔] Hostname : supersonic.web.va.us.xda-developers.com
+[✔] City : Birdsboro
+[✔] Region : US
+[✔] Location : 40.2563,-75.8344
+[✔] Organization : AS30633 Leaseweb USA, Inc.
+
+----------- https://github.com/chankruze -----------
+
+ubuntu@ip-172-31-31-51:~$
+```
 
 ## Inspired By
 [![alt tag](http://nikolaskama.me/content/images/2016/07/mr-robot-1.gif)](https://wikipedia.org/wiki/Mr._Robot)
